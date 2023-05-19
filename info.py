@@ -12,20 +12,20 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '29170430'))
-API_HASH = environ.get('API_HASH', '9fc333577002e5df00e88fd6da88f79b')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6191570791:AAGzVfyxGp501De3VG8ERYtxWTVwa2FRZlM')
+API_ID = int(environ.get('API_ID', '14298205'))
+API_HASH = environ.get('API_HASH', '28df6d84da76d8606bf5f0e71ecfb62c')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5932921073:AAFfV7MyypwC384x3kOrTDMNbhd1A0KgrGQ')
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', '⚜️⚜️ᴊᴏɪɴ @BLASTWALLZTV ⚜️⚜️'))
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', '⚜️⚜️ᴊᴏɪɴ @NAKFLIXTV ⚜️⚜️'))
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/ce993e7fcf6e123f6aff3.jpg https://te.legra.ph/file/12a8246eb2709bcdfaa80.jpg https://te.legra.ph/file/a7c1900adf8029c015fed.jpg https://te.legra.ph/file/cc4e89829bafc8b1765c3.jpg https://telegra.ph/file/2c8917e179de3e26c961e.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1642897696').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001696986886').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1458235021').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001861505272').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001696986886')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001861505272')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -36,8 +36,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001696986886'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Shitt')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001870385542'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Nakflixplus')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
@@ -71,5 +71,5 @@ if AUTO_DELETE == "True":
     AUTO_DELETE = True
 
 SHORTNER_SITE = environ.get('SHORTNER_SITE', 'ez4short.com')
-SHORTNER_API = environ.get('SHORTNER_API', '72bb3a6da42e5f4c722e31665f8180a0d22c0e4 ')
+SHORTNER_API = environ.get('SHORTNER_API', '87dfe4913c6be6b75eeafe20ede5a59ae915a76f')
 
