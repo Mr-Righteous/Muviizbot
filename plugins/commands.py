@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Nakflixtv')
+                InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/blastwallztv')
             ],
             [
                 InlineKeyboardButton('ℹ️ ʜᴇʟᴘ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,11 +44,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             ],[
-            InlineKeyboardButton('🏝️sᴇʀɪᴇs🏝️', url='https://t.me/nakflixtv'),
-            InlineKeyboardButton('🌴ᴍᴏᴠɪᴇs🌴', url='https://t.me/nakflixplus'),
+            InlineKeyboardButton('🏝️sᴇʀɪᴇs🏝️', url='https://t.me/blastwallztv'),
+            InlineKeyboardButton('🌴ᴍᴏᴠɪᴇs🌴', url='https://t.me/blastwallztv'),
             ],[
-            InlineKeyboardButton('💞ʏᴏᴜᴛᴜʙᴇ💞', url='https://youtube.com/c/Nakflix'),
-            InlineKeyboardButton('📱ɪɴsᴛᴀɢʀᴀᴍ📱', url='https://instagram.com/NakflixTv'),
+            InlineKeyboardButton('💞ʏᴏᴜᴛᴜʙᴇ💞', url='https://t.me/Mrrighteous99'),
+            InlineKeyboardButton('📱ɪɴsᴛᴀɢʀᴀᴍ📱', url='https://t.me/Mrrighteous99'),
             ],[
             InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
             ],[
@@ -94,11 +94,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             ],[
-            InlineKeyboardButton('🏝️sᴇʀɪᴇs🏝️', url='https://t.me/nakflixtv'),
-            InlineKeyboardButton('🌴ᴍᴏᴠɪᴇs🌴', url='https://t.me/nakflixplus'),
+            InlineKeyboardButton('🏝️sᴇʀɪᴇs🏝️', url='https://t.me/blastwallztv'),
+            InlineKeyboardButton('🌴ᴍᴏᴠɪᴇs🌴', url='https://t.me/blastwallztv'),
             ],[
-            InlineKeyboardButton('💞ʏᴏᴜᴛᴜʙᴇ💞', url='https://youtube.com/c/Nakflix'),
-            InlineKeyboardButton('📱ɪɴsᴛᴀɢʀᴀᴍ📱', url='https://instagram.com/NakflixTv'),
+            InlineKeyboardButton('💞ʏᴏᴜᴛᴜʙᴇ💞', url='https://t.me/Mrrighteous99'),
+            InlineKeyboardButton('📱ɪɴsᴛᴀɢʀᴀᴍ📱', url='https://t.me/Mrrighteous99'),
             ],[
             InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
             ],[
