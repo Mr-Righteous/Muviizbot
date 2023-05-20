@@ -106,13 +106,13 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton('🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋', url='https://t.me/+7_r5PXDKogoxMzU8')
+            InlineKeyboardButton('🧞 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🧞', url='https://t.me/+35CRS4DkF2o2NzFk')
         ]
     )
     btn.insert(1, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+MfpcWgQhcMRiMDM8'),
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ', url='https://t.me/Nak_ke')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+35CRS4DkF2o2NzFk'),
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ', url='https://t.me/Mrrighteous99')
         ]
     )
    
@@ -163,7 +163,7 @@ async def advantage_spoll_choker(bot, query):
     if not movies:
         return await query.answer("Yᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏғ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴛʜᴇ ʀᴇǫᴜᴇꜱᴛ ᴀɢᴀɪɴ.", show_alert=True)
     movie = movies[(int(movie_))]
-    await query.answer('Checking for Movie in database...')
+    await query.answer('Searching for Movie in database...')
     k = await manual_filters(bot, query.message, text=movie)
     if k == False:
         files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
@@ -440,11 +440,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🏝️ᴜᴘᴅᴀᴛᴇs🏝️', url='https://t.me/nakflixtv'),
-            InlineKeyboardButton('🕊️ᴍᴏᴠɪᴇs🕊️', url='https://t.me/+MfpcWgQhcMRiMDM8')
+            InlineKeyboardButton('🏝️ᴜᴘᴅᴀᴛᴇs🏝️', url='https://t.me/blastwallztv'),
+            InlineKeyboardButton('🕊️ᴍᴏᴠɪᴇs🕊️', url='https://t.me/Mrrighteous99')
             ],[
-            InlineKeyboardButton('😇sᴜᴘᴘᴏʀᴛ😇', url='https://t.me/Nakflixtv'),
-            InlineKeyboardButton('♻️ʀᴇᴘᴏ♻️', url='https://t.me/nakflixtv'),
+            InlineKeyboardButton('😇sᴜᴘᴘᴏʀᴛ😇', url='https://t.me/blastwallztv'),
+            InlineKeyboardButton('♻️ʀᴇᴘᴏ♻️', url='https://t.me/blastwallztv'),
             ],[
             InlineKeyboardButton('💘ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs💘', callback_data='about'),
             ],[
@@ -476,8 +476,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🙄 ᴏᴡɴᴇʀ 🙄', url='https://t.me/Nak_ke'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Nakflixtv'),
+            InlineKeyboardButton('🙄 ᴏᴡɴᴇʀ 🙄', url='https://t.me/Mrrighteous99'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/blastwallztv'),
         ],[
             InlineKeyboardButton('👩‍💻 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 👩‍💻', url='https://GitHub.Com/nakflix/UPDATE'), #Please Change your bot username
             InlineKeyboardButton('😍 sʜᴀʀᴇ ᴍᴇ 😍', url=f'https://t.me/share/url?url=t.me/{temp.U_NAME}'),
@@ -712,7 +712,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton('🔋 Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔋', url='https://t.me/+7_r5PXDKogoxMzU8')
+            InlineKeyboardButton('🧞Hᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🧞', url='https://t.me/+35CRS4DkF2o2NzFk')
         ]
     )
     if offset != "":
