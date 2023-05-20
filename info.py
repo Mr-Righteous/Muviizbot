@@ -17,7 +17,7 @@ API_HASH = environ.get('API_HASH', '9fc333577002e5df00e88fd6da88f79b')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6191570791:AAGzVfyxGp501De3VG8ERYtxWTVwa2FRZlM')
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', '⚜️⚜️ᴊᴏɪɴ @BLASTWALLZTV ⚜️⚜️'))
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', '⚜️⚜️ᴊᴏɪɴ @BLASTWALLZTV⚜️⚜️'))
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/ce993e7fcf6e123f6aff3.jpg https://te.legra.ph/file/12a8246eb2709bcdfaa80.jpg https://te.legra.ph/file/cc4e89829bafc8b1765c3.jpg ')).split()
 
 # Admins, Channels & Users
