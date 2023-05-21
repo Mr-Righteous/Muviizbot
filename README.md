@@ -1,6 +1,6 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Wᴇʟᴄᴏᴍᴇ+Tᴏ+Aᴡᴇsᴏᴍᴇ+Fɪʟᴛᴇʀ+Pʀᴏ+Rᴇᴘᴏ+!!!!!;Cʀᴇᴀᴛᴇᴅ+Bʏ+ɴᴀᴋғʟɪx+Tᴇᴀᴍ+!!!!!;Mᴀᴅᴇ+Wɪᴛʜ+Lᴏᴠᴇ+♥️+!!!!)</p>
 <p align="center">
-  <img src="https://graph.org/file/f3c1d9f76aa1f08bceaf5.jpg" alt="NAKFLIX LOGO">
+  <img src="https://te.legra.ph/file/cc8e0b32a99f584e74f25.jpg" alt="BLASTWALLZ LOGO">
   </p>
   <h1 align="center">
     <b>AᴡᴇsᴏᴍᴇFɪʟᴛᴇʀ Pʀᴏ</b>
@@ -43,11 +43,11 @@
 
 ## Mᴜsᴛ Dᴏ Bᴇғᴏʀᴇ Eᴅɪᴛ Tʜɪs Rᴇᴘᴏ 👇
 
- - 💗 Sᴛᴀʀ Tʜɪs Rᴇᴘᴏ 🌟 - Sᴜᴘᴘᴏʀᴛ ɴᴀᴋғʟɪx ᵗᵛ—͟͟͞͞𖣘 Cᴏᴍᴍᴜɴɪᴛʏ 💥 -
+ - 💗 Sᴛᴀʀ Tʜɪs Rᴇᴘᴏ 🌟 - Sᴜᴘᴘᴏʀᴛ ʙʟᴀꜱᴛᴡᴀʟʟᴢ ᵗᵛ—͟͟͞͞𖣘 Cᴏᴍᴍᴜɴɪᴛʏ 💥 -
 
-ɴᴀᴋғʟɪx ᵗᵛ—͟͟͞͞𖣘
+ʙʟᴀꜱᴛᴡᴀʟʟᴢ ᵗᵛ—͟͟͞͞𖣘
 
-ɴᴀᴋғʟɪx ᵖˡᵘˢ—͟͟͞͞𖣘
+ʙʟᴀꜱᴛᴡᴀʟʟᴢ ᵖˡᵘˢ—͟͟͞͞𖣘
 
 
 
