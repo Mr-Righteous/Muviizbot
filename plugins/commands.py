@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('🏝️sᴇʀɪᴇs🏝️', url='https://t.me/blastwallztv'),
             InlineKeyboardButton('🌴ᴍᴏᴠɪᴇs🌴', url='https://t.me/blastwallztv'),
             ],[
-            InlineKeyboardButton('💞ʏᴏᴜᴛᴜʙᴇ💞', url='https://t.me/Mrrighteous99'),
+            InlineKeyboardButton('💞ʏᴏᴜᴛᴜʙᴇ💞', url='https://youtube.com/@blastwallztv'),
             InlineKeyboardButton('📱ɪɴsᴛᴀɢʀᴀᴍ📱', url='https://instagram.com/blastwallztv?igshid=ZGUzMzM3NWJiOQ=='),
             ],[
             InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
@@ -97,7 +97,7 @@ async def start(client, message):
             InlineKeyboardButton('🏝️sᴇʀɪᴇs🏝️', url='https://t.me/blastwallztv'),
             InlineKeyboardButton('🌴ᴍᴏᴠɪᴇs🌴', url='https://t.me/blastwallztv'),
             ],[
-            InlineKeyboardButton('💞ʏᴏᴜᴛᴜʙᴇ💞', url='https://t.me/Mrrighteous99'),
+            InlineKeyboardButton('💞ʏᴏᴜᴛᴜʙᴇ💞', url='https://youtube.com/@blastwallztv'),
             InlineKeyboardButton('📱ɪɴsᴛᴀɢʀᴀᴍ📱', url='https://instagram.com/blastwallztv?igshid=ZGUzMzM3NWJiOQ=='),
             ],[
             InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
