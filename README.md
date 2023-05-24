@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Wᴇʟᴄᴏᴍᴇ+Tᴏ+Aᴡᴇsᴏᴍᴇ+Fɪʟᴛᴇʀ+Pʀᴏ+Rᴇᴘᴏ+!!!!!;Cʀᴇᴀᴛᴇᴅ+Bʏ+ɴᴀᴋғʟɪx+Tᴇᴀᴍ+!!!!!;Mᴀᴅᴇ+Wɪᴛʜ+Lᴏᴠᴇ+♥️+!!!!)</p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Wᴇʟᴄᴏᴍᴇ+Tᴏ+Aᴡᴇsᴏᴍᴇ+Fɪʟᴛᴇʀ+Pʀᴏ+Rᴇᴘᴏ+!!!!!;Cʀᴇᴀᴛᴇᴅ+Bʏ+BLASTWALLZTV+Tᴇᴀᴍ+!!!!!;Mᴀᴅᴇ+Wɪᴛʜ+Lᴏᴠᴇ+♥️+!!!!)</p>
 <p align="center">
   <img src="https://te.legra.ph/file/cc8e0b32a99f584e74f25.jpg" alt="BLASTWALLZ LOGO">
   </p>
