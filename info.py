@@ -14,11 +14,11 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '29170430'))
 API_HASH = environ.get('API_HASH', '9fc333577002e5df00e88fd6da88f79b')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6191570791:AAGzVfyxGp501De3VG8ERYtxWTVwa2FRZlM')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5739910416:AAGjC4hU38XVTclAJVPn0KmkTKu8Euejq_8')
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 300))
+CACHE_TIME = int(environ.get('CACHE_TIME', 3000))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', '⚜️⚜️ᴊᴏɪɴ @BLASTWALLZTV⚜️⚜️'))
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/ce993e7fcf6e123f6aff3.jpg https://te.legra.ph/file/12a8246eb2709bcdfaa80.jpg https://te.legra.ph/file/cc4e89829bafc8b1765c3.jpg ')).split()
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/ce993e7fcf6e123f6aff3.jpg https://te.legra.ph/file/12a8246eb2709bcdfaa80.jpg https://te.legra.ph/file/cc4e89829bafc8b1765c3.jpg https://te.legra.ph/file/cc8e0b32a99f584e74f25.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1642897696').split()]
@@ -65,7 +65,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 
 
-AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 300))
+AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 3000))
 AUTO_DELETE = environ.get('AUTO_DELETE', True)
 if AUTO_DELETE == "True":
     AUTO_DELETE = True
