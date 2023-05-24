@@ -193,20 +193,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     title = chat.title
                 except:
                     await query.message.edit_text("Mᴀᴋᴇ ꜱᴜʀᴇ I'ᴍ ᴘʀᴇꜱᴇɴᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ!!", quote=True)
-                    return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ɴᴀᴋғʟɪx ᵗᵛ—͟͟͞͞𖣘 ♥️')
+                    return await query.answer('♥️ ꜱᴜᴘᴘᴏʀᴛ ʙʟᴀꜱᴛᴡᴀʟʟᴢ ᵗᵛ ♥️')
             else:
                 await query.message.edit_text(
                     "I'ᴍ ɴᴏᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ ᴀɴʏ ɢʀᴏᴜᴘꜱ!\nCʜᴇᴄᴋ /connection ᴏʀ ᴄᴏɴɴᴇᴄᴛ ᴛᴏ ᴀɴʏ ɢʀᴏᴜᴘꜱ",
                     quote=True
                 )
-                return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ɴᴀᴋғʟɪx ᵗᵛ—͟͟͞͞𖣘 ♥️')
+                return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ʙʟᴀꜱᴛᴡᴡᴀʟʟᴢ ᵗᵛ♥️')
 
         elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             grp_id = query.message.chat.id
             title = query.message.chat.title
 
         else:
-            return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ɴᴀᴋғʟɪx ᵗᵛ—͟͟͞͞𖣘 ♥️')
+            return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ʙʟᴀꜱᴛᴡᴀʟʟᴢ ᵗᵛ ♥️')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -260,7 +260,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode=enums.ParseMode.MARKDOWN
         )
-        return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ɴᴀᴋғʟɪx ᵗᵛ—͟͟͞͞𖣘 ♥️')
+        return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ʙʟᴀꜱᴛᴡᴀʟʟᴢ ᵗᵛ ♥️')
     elif "connectcb" in query.data:
         await query.answer()
 
@@ -281,7 +281,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.edit_text('sᴏᴍᴇ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀᴇᴅ!!!', parse_mode=enums.ParseMode.MARKDOWN)
-        return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ɴᴀᴋғʟɪx ᵗᵛ—͟͟͞͞𖣘 ♥️')
+        return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ʙʟᴀꜱᴛᴡᴀʟʟᴢ ᵗᵛ ♥️')
     elif "disconnect" in query.data:
         await query.answer()
 
@@ -304,7 +304,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ɴᴀᴋғʟɪx ᵗᵛ—͟͟͞͞𖣘 ♥️')
+        return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ʙʟᴀꜱᴛᴡᴀʟʟᴢ ᵗᵛ ♥️')
     elif "deletecb" in query.data:
         await query.answer()
 
@@ -322,7 +322,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"sᴏᴍᴇ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀs!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ɴᴀᴋғʟɪx ᵗᵛ—͟͟͞͞𖣘 ♥️')
+        return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ʙʟᴀꜱᴛᴡᴀʟʟᴢ ᵗᵛ ♥️')
     elif query.data == "backcb":
         await query.answer()
 
@@ -333,7 +333,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "Tʜᴇʀᴇ ᴀʀᴇ ɴᴏ ᴀᴄᴛɪᴠᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ!! Cᴏɴɴᴇᴄᴛ ᴛᴏ ꜱᴏᴍᴇ ɢʀᴏᴜᴘꜱ ғɪʀꜱᴛ.",
             )
-            return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ɴᴀᴋғʟɪx ᵗᵛ—͟͟͞͞𖣘 ♥️')
+            return await query.answer('♥️ Sᴜᴘᴘᴏʀᴛ ʙʟᴀꜱᴛᴡᴀʟʟᴢ ᵗᵛ ♥️')
         buttons = []
         for groupid in groupids:
             try:
@@ -828,7 +828,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("I couldn't find anything related to that. Check your spelling")
+        k = await msg.reply("😳😢 couldn't find anything related to that. ᴘʟɪᴢ ᴄʜᴇᴄᴋ ʏʀ ꜱᴘᴇʟʟɪɴɢ😗")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -839,8 +839,8 @@ async def advantage_spell_chok(msg):
             callback_data=f"spolling#{user}#{k}",
         )
     ] for k, movie in enumerate(movielist)]
-    btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
+    btn.append([InlineKeyboardButton(text="ᴄʟᴏꜱᴇ", callback_data=f'spolling#{user}#close_spellcheck')])
+    await msg.reply("Oσρʂ😬 ɪ ᴄᴏᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ\nᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏꜰ ᴛʜᴇꜱᴇ👇👇🤷?",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
