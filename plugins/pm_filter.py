@@ -456,7 +456,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer('Sᴜᴘᴘᴏʀᴛ ɴᴀᴋғʟɪx ᵗᵛ—͟͟͞͞𖣘')
+        await query.answer('Sᴜᴘᴘᴏʀᴛ ʙʟᴀꜱᴛᴡᴀʟʟᴢ ᵗᵛ')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
@@ -661,7 +661,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('Sᴜᴘᴘᴏʀᴛ ɴᴀᴋғʟɪx ᵗᵛ—͟͟͞͞𖣘')
+    await query.answer('Sᴜᴘᴘᴏʀᴛ ʙʟᴀꜱᴛᴡᴀʟʟᴢ ᵗᵛ')
 
 
 async def auto_filter(client, msg, spoll=False):
