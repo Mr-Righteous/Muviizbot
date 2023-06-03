@@ -65,7 +65,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 
 
-AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 3000))
+AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 6000))
 AUTO_DELETE = environ.get('AUTO_DELETE', True)
 if AUTO_DELETE == "True":
     AUTO_DELETE = True
