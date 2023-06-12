@@ -43,7 +43,6 @@ IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = (environ.get("CUSTOM_FILE_CAPTION","𝙵𝙸𝙻𝙴 : <code>{file_name}</code> 
 𝚂𝙸𝚉𝙴 : <i>{file_size}</i>
-
 <b>𝙅𝙊𝙄𝙉 [ⱧɆⱤɆ](https://t.me/blastwallztv)</b>"), True)
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>QUERY▶️ {query}</b> \n‌\n𝙄𝙈𝘿𝙗 𝘿𝘼𝙏𝘼👇👇\n🎬 𝙏𝙄𝙏𝙇𝙀▶️ <a href={url}>{title}</a>\n\n🎭 𝙂𝙀𝙉𝙍𝙀▶️ {genres} \n\n📆𝙔𝙀𝘼𝙍▶️ <a href={url}/releaseinfo>{year}</a>\n\n🌟 𝙍𝘼𝙏𝙄𝙉𝙂▶️ <a href={url}/ratings>{rating}</a>/🔟\n\n📜 𝙋𝙇𝙊𝙏▶️ {plot}")
