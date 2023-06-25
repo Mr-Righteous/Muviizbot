@@ -171,7 +171,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏʀ🫵 sᴘᴇʟʟɪɴɢ🕵‍♀/nsᴇɴᴅ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀʟᴏɴᴇ☫🧞‍♀/nɪғ ᴀʟʟ ғᴀɪʟs sᴇɴᴅ ʏʀ ʀᴇϙᴜᴇsᴛ ʜᴇʀᴇ👉 @MrRTS_99bot ')
+            k = await query.message.edit('☬ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏʀ🫵sᴘᴇʟʟɪɴɢ🕵‍♀\nsᴇɴᴅ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀʟᴏɴᴇ☫🧞‍♀\nɪғ ᴀʟʟ ғᴀɪʟs sᴇɴᴅ ʏʀ ʀᴇϙᴜᴇsᴛ ʜᴇʀᴇ👉 @MrRTS_99bot ')
             await asyncio.sleep(15)
             await k.delete()
 
