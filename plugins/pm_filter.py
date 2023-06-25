@@ -62,7 +62,7 @@ async def give_filter(client, message):
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("oKda", show_alert=True)
+        return await query.answer("₦Ø₮ ɎØɄⱤ₴\n😤😡😾", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -156,14 +156,14 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("okDa", show_alert=True)
+        return await query.answer("₦Ø₮ ɎØɄⱤ₴\n😡😾", show_alert=True)
     if movie_ == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.id)
     if not movies:
         return await query.answer("Yᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏғ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴛʜᴇ ʀᴇǫᴜᴇꜱᴛ ᴀɢᴀɪɴ.", show_alert=True)
     movie = movies[(int(movie_))]
-    await query.answer('Searching for Movie in database...')
+    await query.answer('Searching for Movie in database📡...')
     k = await manual_filters(bot, query.message, text=movie)
     if k == False:
         files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
@@ -171,7 +171,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('☬ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏʀ🫵sᴘᴇʟʟɪɴɢ🕵‍♀\nsᴇɴᴅ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀʟᴏɴᴇ☫🧞‍♀\nɪғ ᴀʟʟ ғᴀɪʟs sᴇɴᴅ ʏʀ ʀᴇϙᴜᴇsᴛ ʜᴇʀᴇ👉 @MrRTS_99bot ')
+            k = await query.message.edit('☬ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏʀ🫵sᴘᴇʟʟɪɴɢ🕵‍♀\nsᴇɴᴅ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀʟᴏɴᴇ☫🧞‍♀\nɪғ ᴀʟʟ ғᴀɪʟs sᴇɴᴅ ʏʀ ʀᴇϙᴜᴇsᴛ ʜᴇʀᴇ📡 @MrRTS_99bot ')
             await asyncio.sleep(15)
             await k.delete()
 
@@ -400,7 +400,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     protect_content=True if ident == "filep" else False 
                 )
-                await query.answer('ᴄʜᴇᴄᴋ ᴘᴍ ɪ ʜᴀᴠᴇ sᴇɴᴅ ғɪʟᴇs', show_alert=True)
+                await query.answer('ᴄʜᴇᴄᴋ ᴘᴍ ɪ ʜᴀᴠᴇ sᴇɴT ғɪʟᴇs', show_alert=True)
         except UserIsBlocked:
             await query.answer('ᴜɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀɴʜ !', show_alert=True)
         except PeerIdInvalid:
@@ -828,7 +828,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("😳😢 couldn't find anything related to that. ᴘʟɪᴢ ᴄʜᴇᴄᴋ ʏʀ ꜱᴘᴇʟʟɪɴɢ😗")
+        k = await msg.reply("☬ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏʀ🫵sᴘᴇʟʟɪɴɢ🕵‍♀\nsᴇɴᴅ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀʟᴏɴᴇ☫🧞‍♀\nɪғ ᴀʟʟ ғᴀɪʟs sᴇɴᴅ ʏʀ ʀᴇϙᴜᴇsᴛ ʜᴇʀᴇ🔅 @MrRTS_99bot ")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -840,7 +840,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="ᴄʟᴏꜱᴇ", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("Oσρʂ😬 ɪ ᴄᴏᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ\nᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏꜰ ᴛʜᴇꜱᴇ👇👇🤷?",
+    await msg.reply("𝙾𝙾𝙿𝚜 𝙻𝙾𝙾𝙺𝚂 𝙵𝙰𝙻𝚂𝙴 𝙳𝙸𝙳 𝚈𝙾𝚄 𝙼𝙴𝙰𝙽 𝙰𝙽𝚈 𝙾𝙵 𝚃𝙷𝙴𝚂𝙴👇👇🤷\n𝙸𝙵 𝙽𝙾𝚃 𝚂𝙴𝙽𝙳 𝚈𝚁 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙷𝙴𝚁𝙴👇\n@MrRTS_99bot 🧞",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
